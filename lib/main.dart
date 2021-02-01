@@ -8,6 +8,7 @@ const request =
 
 void main() async {
   runApp(MaterialApp(
+    debugShowCheckedModeBanner: false,
     home: Home(),
     theme: ThemeData(
         hintColor: Colors.amber,
